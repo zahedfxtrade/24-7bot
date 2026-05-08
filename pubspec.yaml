@@ -1,0 +1,33 @@
+name: dadaji_security_services
+description: Dadaji Security Services Attendance App
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  intl: ^0.19.0
+  path_provider: ^2.1.2
+  uuid: ^4.3.3
+  file_picker: ^8.0.0+1
+  http: ^1.2.1
+  share_plus: ^10.0.0
+  url_launcher: ^6.3.0
+  workmanager: ^0.5.2
+  flutter_local_notifications: ^17.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
